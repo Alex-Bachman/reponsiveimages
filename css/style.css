@@ -1,0 +1,19 @@
+.figure {
+    float: left;
+
+    @media (max-width: 400px) {
+        width: 100%;
+    }
+
+    @media (min-width: 600px) {
+        width: 33%;
+    }
+
+    @media (min-width: 1000px) {
+        width: 16%;
+    }
+}
+
+img {
+    max-width: 100%;
+}
